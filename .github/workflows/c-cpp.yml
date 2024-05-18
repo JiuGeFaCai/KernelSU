@@ -1,7 +1,7 @@
 name: GKI Kernel Build
 
 on:
-  workflow_call:
+  push:
     inputs:
       version:
         required: true
